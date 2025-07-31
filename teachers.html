@@ -1,1 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Викладачі — Ballet is…</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet" />
+
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #fdfdfd url('background.jpg') no-repeat center center;
+      background-size: cover;
+      color: #333;
+    }
+
+    header {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-family: 'Marck Script', cursive;
+      font-size: 28px;
+      color: #3d7dbf;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #3d7dbf;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section h1 {
+      font-family: 'Marck Script', cursive;
+      font-size: 42px;
+      color: #2c6096;
+      margin-bottom: 30px;
+    }
+
+    .teachers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .teacher {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 280px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .teacher img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    .teacher h3 {
+      font-family: 'Marck Script', cursive;
+      font-size: 24px;
+      color: #2c6096;
+      margin: 10px 0;
+    }
+
+    .teacher p {
+      font-size: 16px;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        margin-left: 10px;
+        font-size: 14px;
+      }
+
+      .section h1 {
+        font-size: 32px;
+      }
+
+      .teacher {
+        max-width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Ballet is…</div>
+    <nav>
+      <a href="index.html">Головна</a>
+      <a href="about.html">Про нас</a>
+      <a href="teachers.html">Викладачі</a>
+      <a href="schedule.html">Розклад і ціни</a>
+      <a href="gallery.html">Галерея</a>
+      <a href="faq.html">FAQ</a>
+      <a href="contact.html">Контакти</a>
+      <a href="blog.html">Блог</a>
+    </nav>
+  </header>
+
+  <section class="section">
+    <h1>Наші викладачі</h1>
+    <div class="teachers">
+      <div class="teacher">
+        <img src="nastia.jpg" alt="Настя — викладачка хореографії">
+        <h3>Настя</h3>
+        <p>Викладає класичний балет та стретчинг. Професійна хореографка з теплим підходом до кожного учня.</p>
+      </div>
+      <div class="teacher">
+        <img src="oleg.jpg" alt="Олег — викладач для дітей">
+        <h3>Олег</h3>
+        <p>Викладає дитячі групи з 3 років. Має музичну освіту, розвиває у дітей відчуття ритму й гармонії руху.</p>
+      </div>
+      <!-- Можеш додавати більше блоків teacher -->
+    </div>
+  </section>
+</body>
+</html>
 
