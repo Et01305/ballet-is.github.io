@@ -66,6 +66,108 @@
       color: #444;
     }
 
+    .cta {
+      background-color: rgba(255, 255, 255, 0.9);
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .cta h2 {
+      font-family: 'Marck Script', cursive;
+      font-size: 36px;
+      color: #2c6096;
+      margin-bottom: 10px;
+    }
+
+    .cta p {
+      font-size: 18px;
+      color: #444;
+      margin-bottom: 25px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      background-color: #3d7dbf;
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #2c6096;
+    }
+
+    .directions {
+      background-color: rgba(255, 255, 255, 0.85);
+      text-align: center;
+      padding: 60px 20px;
+    }
+
+    .directions h2 {
+      font-family: 'Marck Script', cursive;
+      font-size: 36px;
+      color: #2c6096;
+      margin-bottom: 30px;
+    }
+
+    .directions ul {
+      list-style: none;
+      padding: 0;
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #333;
+    }
+
+    .directions li {
+      margin-bottom: 12px;
+    }
+
+    .about {
+      background-color: rgba(255, 255, 255, 0.92);
+      padding: 60px 20px;
+    }
+
+    .about-container {
+      display: flex;
+      align-items: center;
+      max-width: 1000px;
+      margin: 0 auto;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .about-photo {
+      flex: 1 1 300px;
+      max-width: 400px;
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .about-text {
+      flex: 1 1 400px;
+      text-align: left;
+    }
+
+    .about-text h2 {
+      font-family: 'Marck Script', cursive;
+      font-size: 36px;
+      color: #2c6096;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .about-text p {
+      font-size: 18px;
+      color: #444;
+      line-height: 1.6;
+      margin-bottom: 16px;
+    }
+
     @media (max-width: 600px) {
       nav a {
         margin-left: 10px;
@@ -79,42 +181,16 @@
       .hero p {
         font-size: 16px;
       }
+
+      .about-container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .about-text {
+        text-align: center;
+      }
     }
-
-    .cta {
-  background-color: rgba(255, 255, 255, 0.9);
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.cta h2 {
-  font-family: 'Marck Script', cursive;
-  font-size: 36px;
-  color: #2c6096;
-  margin-bottom: 10px;
-}
-
-.cta p {
-  font-size: 18px;
-  color: #444;
-  margin-bottom: 25px;
-}
-
-.cta-button {
-  display: inline-block;
-  background-color: #3d7dbf;
-  color: white;
-  padding: 12px 24px;
-  font-size: 16px;
-  text-decoration: none;
-  border-radius: 8px;
-  transition: background-color 0.3s ease;
-}
-
-.cta-button:hover {
-  background-color: #2c6096;
-}
-
   </style>
 </head>
 <body>
@@ -138,33 +214,33 @@
   </section>
 
   <section class="cta">
-  <h2>Хочеш спробувати?</h2>
-  <p>Залиш заявку — і ми допоможемо підібрати зручний формат занять для тебе.</p>
-  <a class="cta-button" href="https://t.me/+IGRFES20x-RkNTJi" target="_blank">Записатись</a>
-</section>
+    <h2>Хочеш спробувати?</h2>
+    <p>Залиш заявку — і ми допоможемо підібрати зручний формат занять для тебе.</p>
+    <a class="cta-button" href="https://t.me/+IGRFES20x-RkNTJi" target="_blank">Записатись</a>
+  </section>
 
   <section class="directions">
-  <h2>Наші напрямки</h2>
-  <ul>
-    <li>• Балет для дорослих (будь-якого рівня)</li>
-    <li>• Стретчинг</li>
-    <li>• Балетна розтяжка</li>
-    <li>• Партер</li>
-    <li>• Дитячий балет</li>
-    <li>• Індивідуальні заняття</li>
-    <li>• Парні тренування</li>
-  </ul>
-</section>
-<section class="about">
-  <h2>Про студію</h2>
-  <p>
-    «Ballet is…» — це простір для тіла, душі та натхнення в самому серці Києва. Ми об'єднуємо людей різного віку, досвіду та підготовки навколо любові до балету, розтяжки й гармонійного руху.
-  </p>
-  <p>
-    У нас світло, спокійно й красиво. Комфортний зал, турботливі викладачі та підтримуюча атмосфера створені для того, щоб ти відчув(ла) себе вільно. Навіть якщо це твоє перше заняття — ми будемо поруч.
-  </p>
-</section>
+    <h2>Наші напрямки</h2>
+    <ul>
+      <li>• Балет для дорослих (будь-якого рівня)</li>
+      <li>• Стретчинг</li>
+      <li>• Балетна розтяжка</li>
+      <li>• Партер</li>
+      <li>• Дитячий балет</li>
+      <li>• Індивідуальні заняття</li>
+      <li>• Парні тренування</li>
+    </ul>
+  </section>
 
-
+  <section class="about">
+    <div class="about-container">
+      <img src="studio.jpg" alt="Фото студії" class="about-photo">
+      <div class="about-text">
+        <h2>Про студію</h2>
+        <p>«Ballet is…» — це простір для тіла, душі та натхнення в самому серці Києва. Ми об'єднуємо людей різного віку, досвіду та підготовки навколо любові до балету, розтяжки й гармонійного руху.</p>
+        <p>У нас світло, спокійно й красиво. Комфортний зал, турботливі викладачі та підтримуюча атмосфера створені для того, щоб ти відчув(ла) себе вільно. Навіть якщо це твоє перше заняття — ми будемо поруч.</p>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
