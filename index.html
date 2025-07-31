@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ballet is…</title>
+
+  <!-- Підключення шрифтів -->
+  <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet" />
+
+  <!-- Стилі -->
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background: #fdfdfd url('background.jpg') no-repeat center center;
+      background-size: cover;
+      color: #333;
+    }
+
+    header {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .logo {
+      font-family: 'Marck Script', cursive;
+      font-size: 28px;
+      color: #3d7dbf;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #3d7dbf;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px 60px;
+    }
+
+    .hero h1 {
+      font-family: 'Marck Script', cursive;
+      font-size: 48px;
+      margin-bottom: 20px;
+      color: #2c6096;
+    }
+
+    .hero p {
+      font-size: 20px;
+      max-width: 600px;
+      margin: 0 auto;
+      color: #444;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        margin-left: 10px;
+        font-size: 14px;
+      }
+
+      .hero h1 {
+        font-size: 36px;
+      }
+
+      .hero p {
+        font-size: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">Ballet is…</div>
+    <nav>
+      <a href="#">Головна</a>
+      <a href="#">Про нас</a>
+      <a href="#">Викладачі</a>
+      <a href="#">Розклад і ціни</a>
+      <a href="#">Галерея</a>
+      <a href="#">FAQ</a>
+      <a href="#">Контакти</a>
+      <a href="#">Блог</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Танець — це свобода</h1>
+    <p>Ласкаво просимо до студії хореографії "Ballet is…", де кожен може знайти свій шлях до балету. Тут твориться краса, рух і гармонія.</p>
+  </section>
+</body>
+</html>
